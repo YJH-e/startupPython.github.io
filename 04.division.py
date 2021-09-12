@@ -5,7 +5,9 @@ divident = int(input("Enter a whole integer"))
 divisor = float(input("Enter a divisor"))
 
 #whole number division
-print(divident // divisor)
+#displaying no decimals
+print(int(divident // divisor))
 
 #reminder number division
-print(divident % divisor) 
+#displaying no decimals with another method
+print(round(divident % divisor))
