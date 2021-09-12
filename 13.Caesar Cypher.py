@@ -12,6 +12,7 @@ shift = int(input("How many letters to the right would you like to shift your te
 
 #encrypt
 i = 0
+cypher = ""
 for i in range(0, plainl):
     char = plain[i]
     if char != " ":
@@ -19,11 +20,11 @@ for i in range(0, plainl):
         newcharASCII = charASCII + shift
         #a -> z and z -> a with intensive maths
         if newcharASCII < 97:
-            newcharASCII = 122 - (96 - (newcharASCII + shift))
+            newcharASCII = 122 - (96 - newcharASCII)
         elif newcharASCII > 122:
-            newcharASCII = 96 + newcharASCII + shift - 122
+            newcharASCII = 96 + newcharASCII - 122
         #endif
         newchar = chr(newcharASCII) #find the character of an ASCII value
-    plain[i] = newchar#change plain text to cipher text
+    cypher += newchar
 #next
-print(plain)
+print(cypher)
