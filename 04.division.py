@@ -9,3 +9,5 @@ print(divident // divisor)
 
 #reminder number division
 print(divident % divisor) 
+
+## GACS - ood. Works well. Is it posisble to output whole numbers not ones to 1 decimla place?
