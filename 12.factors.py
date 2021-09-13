@@ -4,10 +4,10 @@
 from math import sqrt
 
 #enter integer
-num = int(input("Enter an integer"))
+iNum = int(input("Enter an integer"))
 
 #find square root
-endnum = sqrt(num)
+endnum = sqrt(iNum)
 
 #set up factor array/list
 factors = []
@@ -15,13 +15,13 @@ factors = []
 #find factors
 i=2
 while i <= endnum:
-    tempfactor = num/i
+    tempfactor = (iNum/i)
     if tempfactor - int(tempfactor) == 0:
         factors.append(i)
-        factors.append(tempfactor)
+        factors.append(int(tempfactor))
     #endif
     i += 1
 #endwhile
 
-#print all factors
-print(factors)
+#print all factors using "sorted" which sorts all values from minimum to maximum
+print(sorted(factors))
