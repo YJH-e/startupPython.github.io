@@ -16,5 +16,8 @@ while tries < 10000:
         print("00" + combination)
     elif digit == 1:
         print("000" + combination)
+    #endif
+
+    #to next possible combination
     tries += 1
 #endwhile
