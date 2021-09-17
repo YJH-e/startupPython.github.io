@@ -3,16 +3,19 @@ print("All possible combinations are listed below")
 tries = 0
 emptydigit = "0"
 
-while tries < 100:
+#print out all combinations in order of values from smallest to largest
+while tries < 10000:
     combination = str(tries)
     digit = len(combination)
     
     #fill in the empty digits if a combination does not have 4 digits
-    while digit < 2:
-        combination = emptydigit + combination
-    #endwhile
-    #display combination
-    print(combination)
-
+    if digit == 4:
+        print(combination)
+    elif digit == 3:
+        print("0" + combination)
+    elif digit == 2:
+        print("00" + combination)
+    elif digit == 1:
+        print("000" + combination)
     tries += 1
 #endwhile
