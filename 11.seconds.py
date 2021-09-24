@@ -10,3 +10,5 @@ total = hour * 3600 + min * 60 + sec
 
 #outputs result
 print(total)
+
+## Good I thought the nput was in the form hh:mm:ss?
