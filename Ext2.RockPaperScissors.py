@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #This code allows the computer to play RockPaperScissors with you
 import random #import random number generator
 comRandom = (random.randrange(0, 3)) # computer chooses: 0 is rock, 1 is paper, 2 is scissors
@@ -22,7 +21,6 @@ elif result == 2:
     print("You win")
 else:
     print("Draw")
-=======
 #This code does Rock Paper Scissors in one line
 
 #import random number generator
@@ -51,5 +49,4 @@ elif result == 1:
     print("Computer wins")
 elif result == 2:
     print("You win")
->>>>>>> 253143e2ee0fa10da4cdc259f588575c1141239e
 #endif
