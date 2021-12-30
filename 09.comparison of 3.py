@@ -4,7 +4,7 @@
 num1 = int(input("Enter first number"))
 num2 = int(input("Enter second number"))
 num3 = int(input("Enter third number"))
-
+S
 #compares the size of the two numbers
 if num1 <= num2:
     if num2 <= num3:
@@ -23,3 +23,5 @@ else:
         print(num1, num2, num3)
     #endif
 #endif
+
+## Good logic. Might be slightly too many lines of code!

@@ -16,4 +16,10 @@ while counter < index:
     
 
 
+<<<<<<< HEAD
 #endwhile
+=======
+#endwhile
+
+## ACS Seems to be an error if you type "Hello how are you today!"
+>>>>>>> 253143e2ee0fa10da4cdc259f588575c1141239e

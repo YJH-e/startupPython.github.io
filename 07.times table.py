@@ -4,7 +4,8 @@
 num = int(input("Enter your number"))
 
 #times
-for i in range(1, 11):
     print(num*i)
     i += 1
 #next
+
+## ACS Good
